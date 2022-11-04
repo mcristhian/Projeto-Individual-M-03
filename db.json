@@ -1,10 +1,10 @@
 {
   "rotas": [
     {
-      "id": 2,
-      "name": "RJ x BH",
-      "description": "",
-      "distance": "436,85 km"
+      "name": "RJ x VT",
+      "description": "Trajeto médio.",
+      "distance": "436,85 km",
+      "id": 2
     },
     {
       "id": 3,
@@ -81,16 +81,10 @@
       "price": "Variável"
     },
     {
-      "id": 4,
-      "name": "Avulso",
-      "description": "Contrato avulso para transportes não recorrentes.",
-      "price": "Variável"
-    },
-    {
-      "id": 5,
-      "name": "Avulso 2",
+      "id": 6,
+      "name": "Avulso 3",
       "description": "Plano alternativo",
-      "price": "R$ 50.000"
+      "price": "R$ 55.000"
     }
   ]
 }
