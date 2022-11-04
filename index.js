@@ -15,7 +15,7 @@ let d_arg_id = 4;
 
 //Get
 function f_get(){
-    g.get(`http://localhost:3000/${g_arg}`)
+    g.get(`https://projeto-individual-m-03.onrender.com/${g_arg}`)
     .then(resp_g => {
         data = resp_g.data;
         console.log(data);
@@ -27,7 +27,7 @@ function f_get(){
 
 //Post
 function f_post(){
-    po.post(`http://localhost:3000/${po_arg}`, {
+    po.post(`https://projeto-individual-m-03.onrender.com/${po_arg}`, {
     id: 6,
     name: "Avulso 3",
     description: "Plano alternativo",
@@ -44,7 +44,7 @@ function f_post(){
 
 //Put
 function f_put(){
-    pu.put(`http://localhost:3000/${pu_arg}/${pu_arg_id}`, {
+    pu.put(`https://projeto-individual-m-03.onrender.com/${pu_arg}/${pu_arg_id}`, {
     // id: 1,
     name: "RJ x VT",
     description: 'Trajeto médio.',
@@ -61,7 +61,7 @@ function f_put(){
 
 //Delete
 function f_delete(){
-    d.delete(`http://localhost:3000/${d_arg}/${d_arg_id}`)
+    d.delete(`https://projeto-individual-m-03.onrender.com/${d_arg}/${d_arg_id}`)
     .then(resp_d => {
         console.log('Deletado.');
     })
