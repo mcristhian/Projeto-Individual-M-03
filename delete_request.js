@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-axios.delete('http://localhost:3000/rotas/1')
+axios.delete('https://projeto-individual-m-03.onrender.com/rotas/1')
     .then(resp => {
         console.log('Deletado.');
     })

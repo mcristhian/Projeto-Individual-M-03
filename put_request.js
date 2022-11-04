@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-axios.put('http://localhost:3000/rotas/1', {
+axios.put('https://projeto-individual-m-03.onrender.com/rotas/1', {
     id: 1,
     name: "RJ x SP",
     description: 'Trajeto pequeno.',

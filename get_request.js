@@ -1,7 +1,7 @@
 const axios = require('axios');
 let arg = process.argv.slice(2);
 
-axios.get(`http://localhost:3000/${arg}`)
+axios.get(`https://projeto-individual-m-03.onrender.com/${arg}`)
     .then(resp => {
         data = resp.data;
         console.log(data);
