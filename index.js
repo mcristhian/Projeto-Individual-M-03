@@ -1,4 +1,4 @@
-const data = require("./db.json");
+const data = require("./db.js");
 
 const jsonServer = require("json-server");
 const server = jsonServer.create();
@@ -10,50 +10,50 @@ server.use(middlewares);
 server.use(router);
 
 //Get
-server.get('/servicos', (req, res) => {
+server.get('/rotas', (req, res) => {
 
-    return res.json(data.servicos)
+    return res.json(data.rotas)
 });
 
 //Post
-server.post('/servicos', (req, res) => {
+server.post('/rotas', (req, res) => {
     const { name } = req.body;
     data.servicos.push(name);
 
-    return res.json(data.servicos);
+    return res.json(data.rotas);
 });
 
 //Put
-server.put('/servicos/:index', (req, res) => {
+server.put('/rotas/:index', (req, res) => {
     const { index } = req.params;
     const { name } = req.body;
 
-    data.servicos[index] = name;
+    data.rotas[index] = name;
 
-    return res.json(data.servicos);
+    return res.json(data.rotas);
 });
 
 //Delete
-server.delete('/servicos/:index', (req, res) => {
+server.delete('/rotas/:index', (req, res) => {
     const { index } = req.params;
 
     data.splice(index, 1);
-    return res.json({ message: "O item foi deletado" });
+    return res.json({ message: "Item deletado." });
 })
 
-server.delete("/servicos/:index", (req, res) => {
+server.delete("/rotas/:index", (req, res) => {
     const item = item.deleteOne({ _id: req.params.id }, (err) => {
         if (err) return res.status(400).json({
             error: true,
-            message: "Error: Item não foi apagada com sucesso!"
+            message: "Erro."
         });
         return res.json({
             error: false,
-            message: "Artigo apagado com sucesso!"
+            message: "Item apagado."
         });
     });
 });
 
 server.listen(port, () => {
-    console.log(`Server is running in http://localhost:${port}`);
+    console.log(`Servidor está rodando em http://localhost:${port}`);
 });

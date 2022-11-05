@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Caminhão de pequeno porte",
+    "description": "Veículo disponível nos planos: 1, 3 e 4.",
+    "capacity": "13 toneladas",
+    "speed": "80 km/h"
+  },
+  {
+    "id": 2,
+    "name": "Caminhão de médio porte",
+    "description": "Veículo disponível nos planos: 1, 3 e 4.",
+    "capacity": "20 toneladas",
+    "speed": "80 km/h"
+  },
+  {
+    "id": 3,
+    "name": "Avião de pequeno porte",
+    "description": "Aeronave disponível nos planos: 2, 3 e 4.",
+    "capacity": "10 toneladas",
+    "speed": "903 km/h"
+  },
+  {
+    "id": 4,
+    "name": "Avião de médio porte",
+    "description": "Aeronave disponível nos planos: 2, 3 e 4.",
+    "capacity": "18 toneladas",
+    "speed": "780 km/h"
+  }
+]

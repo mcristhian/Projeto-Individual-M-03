@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Plano com caminhões",
+    "description": "Plano para transporte rodoviário com os caminhões de pequeno e médio porte.",
+    "price": "Variável"
+  },
+  {
+    "id": 2,
+    "name": "Plano com aviões",
+    "description": "Plano para transporte aéreo com os aviões de pequeno e médio porte.",
+    "price": "Variável"
+  },
+  {
+    "id": 3,
+    "name": "Plano agregado",
+    "description": "Plano para transporte rodoviário e aéreo com uso dos caminhões e aviões de pequeno e médio porte.",
+    "price": "Variável"
+  },
+  {
+    "id": 4,
+    "name": "Avulso",
+    "description": "Contrato avulso para transportes não recorrentes.",
+    "price": "Variável"
+  }
+]

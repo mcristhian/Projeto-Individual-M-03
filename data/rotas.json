@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "RJ x SP",
+    "description": "Rota que liga a segunda com a terceira maior capital do país.",
+    "distance": "428,25 km"
+  },
+  {
+    "id": 2,
+    "name": "RJ x BH",
+    "description": "Rota que liga a segunda com a sexta maior capital do país.",
+    "distance": "436,85 km"
+  },
+  {
+    "id": 3,
+    "name": "RJ x VT",
+    "description": "Rota que liga a segunda com a vigésima sexta maior capital do país.",
+    "distance": "518,62 km"
+  },
+  {
+    "id": 4,
+    "name": "SP x BH",
+    "description": "Rota que liga a primeira com a sexta maior capital do país.",
+    "distance": "588,07 km"
+  },
+  {
+    "id": 5,
+    "name": "SP x VT",
+    "description": "Rota que liga a primeira com a vigésima sexta maior capital do país.",
+    "distance": "1.002,56 km"
+  },
+  {
+    "id": 6,
+    "name": "BH x VT",
+    "description": "Rota que liga a sexta com a vigésima sexta maior capital do país.",
+    "distance": "523,83 km"
+  }
+]
